@@ -882,7 +882,7 @@ function renderPedidoLoja(k) {
       <td>${r.desc}</td>
       <td class="mono" style="${r.est<0?'color:var(--danger);font-weight:700':''}">${r.est}</td>
       <td class="mono">${consExib}</td>
-      <td class="mono" style="${r.consCliq>0?'color:var(--info);font-weight:600':'color:var(--muted)'">${r.consCliq>0?'+'+r.consCliq.toFixed(0):'—'}</td>
+      <td class="mono" style="${r.consCliq>0?'color:var(--info);font-weight:600':'color:var(--muted)'}">${r.consCliq>0?'+'+r.consCliq.toFixed(0):'—'}</td>
       <td class="mono" style="font-weight:600">${r.cons.toFixed(0)} unid</td>
       <td class="mono">${r.necessidade} unid</td>
       <td class="mono" style="color:var(--accent);font-weight:700">${r.qtdReal} unid</td>
